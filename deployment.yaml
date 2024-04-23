@@ -3,17 +3,17 @@ kind: Deployment
 metadata:
   labels:
     app: pet-deploy
-  name: pet-deploy
+  name: chimi-deploy
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: pet-deploy
+      app: chimi-deploy
   template:
     metadata:
       labels:
-        app: pet-deploy
+        app: chimi-deploy
     spec:
       containers:
-      - image: cloudsihmar/newpet:13
+      - image: cloudsihmar/takin:latest
         name: pet
