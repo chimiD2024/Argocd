@@ -15,5 +15,5 @@ spec:
         app: chimi-deploy
     spec:
       containers:
-      - image: cloudsihmar/takin:latest
+      - image: chimidema/takin:15
         name: pet
