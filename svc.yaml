@@ -3,7 +3,7 @@ kind: Service
 metadata:
   labels:
     app: chimi-deploy
-  name: prod-svc
+  name: chimi-svc
   #namespace: pet
 spec:
   ports:
